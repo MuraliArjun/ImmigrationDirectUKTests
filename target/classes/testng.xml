@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ImmigrationDirectUK Application Test Automation">
+
+	<listeners>
+		<listener class-name="com.qa.extendreport.ExtentReporterNG" />
+	</listeners>
+
+	<test name="ImmigrationDirectUK Application Test">
+		<classes>
+			<class name="com.qa.testcases.RegistrationPageTest"></class>
+			<class name="com.qa.testcases.PaymentPageTest"></class>
+		</classes>
+
+	</test>
+</suite>
