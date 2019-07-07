@@ -42,8 +42,9 @@ public class PaymentPageTest extends BaseTest{
 		registration.submitAccount();
 		payment.enterPaymentForm();
 		payment.submitPayment();
-		thankyou.clickContinue();
 		utility.alertHandler();
+		thankyou.clickContinue();
+		
 	}
 	
 	@AfterMethod
